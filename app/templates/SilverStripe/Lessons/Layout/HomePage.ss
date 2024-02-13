@@ -11,4 +11,17 @@
             $Content
         </div>
     </section>
+
+    <section>
+        <h2>Latest articles</h2>
+
+        <% loop $LatestArticles(3) %>
+            <h5>
+                <a href="$Link">
+                    $Title
+                </a>
+            </h5>
+            <p>$Teaser</p>
+        <% end_loop %>
+    </section>
 </main>
