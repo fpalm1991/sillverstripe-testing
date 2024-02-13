@@ -8,6 +8,10 @@
         </h1>
         <p>Author $Reporter ($Date.Nice)</p>
 
+        <div class="image">
+            $Photo.ScaleWidth(750);
+        </div>
+
         <% if $Teaser %>
             <p>$Teaser</p>
         <% else %>
@@ -17,5 +21,17 @@
         <div class="main-content">
             $Content
         </div>
+
+        <% if $Brochure %>
+            <div class="row">
+                <% with $Brochure %>
+                    <div class="col-sm-12">
+                        <a href="$URL" class="btn" target="_blank">
+                            Download brochure ($Extension, $Size)
+                        </a>
+                    </div>
+                <% end_with %>
+            </div>
+        <% end_if %>
     </section>
 </main>
