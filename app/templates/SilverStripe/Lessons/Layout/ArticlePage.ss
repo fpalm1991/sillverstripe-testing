@@ -22,6 +22,8 @@
             $Content
         </div>
 
+        <li><i class="fa fa-tags"></i> $CategoriesList</li>
+
         <% if $Brochure %>
             <div class="row">
                 <% with $Brochure %>

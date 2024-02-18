@@ -22,6 +22,9 @@
                 </a>
             </h5>
             <p>$Teaser</p>
+
+            <li><i class="fa fa-tags"></i> $CategoriesList</li>
+
         <% end_loop %>
     </section>
 </main>

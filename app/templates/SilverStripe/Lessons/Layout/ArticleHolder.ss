@@ -16,4 +16,7 @@
             <p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen. Aliquam fermem tum nulla felis, sed molestie libero porttitor in.</p>
         </div>
     </div>
+
+    <li><i class="fa fa-tags"></i> $CategoriesList</li>
+
 <% end_loop %>
